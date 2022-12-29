@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script src="kwitter.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <center>
+        <h1 class="header">	
+            Kwitter	<sup>
+        <img src="m2.png">
+        </sup>
+    </h1>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        <img src="logo.png" class="logo">
+           <h3 id="kon"></h3> 
+        <h3 >See what is happening in the world right now</h3>
+            <h4 >Join Kwitter today</h4>
+            <div class="form-group">
+              <label >User Name:</label>
+    <input id="user_name" class="form-control" placeholder="Enter username">
+    <input id="room_name" class="form-control" placeholder="Enter room name">
+            </div>
+            <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+            <button id="logout_button" class="btn btn-primary" onclick="logout()">Logout</button>
+<button id="addroom_button" class="btn btn-primary" onclick="addRoom()">Add room</button>
+<h3 id="roomnames"></h3>
+            <br><br>
+        </div>
+    </center>
+</body>
+</html>
